@@ -1,0 +1,77 @@
+.main-menu a {
+	padding:8px;
+	background: #fafafa;
+	border-radius: 3px;
+	margin: 2px;
+	display: block;
+}
+
+.main-menu a:hover {
+	color: #444;
+	background: #eaeaea;
+}
+
+form input {
+	background: #fafafa;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: #888;
+	padding: 4px;
+}
+
+form button {
+	padding: 5px;
+	border: 1px solid;
+	border-color: #555;
+	border-radius: 4px;
+	background: #cacaca;
+}
+
+#form-data {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#main-content {
+	text-align: center;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination .page-buttons a {
+	padding:8px;
+	background: #fafafa;
+	border-radius: 3px;
+	margin: 2px;
+	display: block-inline;
+}
+
+.pagination .page-buttons a:hover {
+	color: #444;
+	background: #f0f0f0;
+}
+
+.page-item {
+	padding: 4px;
+	margin: 5px;
+	background: #fdfdfd;
+	border-radius: 4px;
+}
+
+.back-main a {
+	padding:8px;
+	background: #fafafa;
+	border-radius: 3px;
+	margin: 2px;
+	display: block;
+}
+
+.back-main a:hover {
+	color: #444;
+	background: #f0f0f0;
+}
