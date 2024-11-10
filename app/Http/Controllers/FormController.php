@@ -10,6 +10,8 @@ use Illuminate\Support\Collection;
 class FormController extends Controller
 {
 
+    public static $PaginateLimit = 10;
+
     public function show(): View
     {
         return view('formdata');
@@ -76,7 +78,7 @@ class FormController extends Controller
         $intPage = intval($page);
         if ($intPage < 1)
             $intPage = 1;
-        $limit = 5;
+        $limit = self::$PaginateLimit;
         $paginate = self::getPaginate($limit, $intPage);
         $paginateData['limit'] = $limit;
         $paginateData['items'] = $paginate->items();
