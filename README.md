@@ -5,7 +5,7 @@ Read the `setup.md` and choose the steps missing on your computer to finalize th
 ## Main Page
 
 Choose `Form Data` to fill in data records one by one.  
-`Paginate Results` shows 5 records per page and navigation buttons to browse the database.  
+`Paginate Results` shows 10 records per page and navigation buttons to browse the database.  
 `Export to CSV` will generate by using chunk of 100 records .csv file for download, use spreadsheet software to view.  
 
 ## Models
